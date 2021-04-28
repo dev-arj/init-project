@@ -1,0 +1,16 @@
+n = 8
+
+l = 3
+
+i = 0
+
+while i< l:
+    guess = input("num :" )
+    i = i + 1
+    if int(guess) == n:
+        print("correct")
+        print("you won")
+        break
+    else:
+        print("wrong")
+
